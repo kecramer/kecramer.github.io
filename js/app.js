@@ -60,9 +60,10 @@ $(document).ready(function(){
 	});
 
 	$(window).on('scroll', updateNav);
+	$(window).on('resize', updateNav);
 
 	function updateNav(e) {
-		if(window.scrollY > 550) {
+		if(window.scrollY > 550 || window.innerWidth <= 700) {
 			el.nav.addClass('fixed');
 		} else {
 			el.nav.removeClass('fixed');
