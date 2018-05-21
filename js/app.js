@@ -11,10 +11,14 @@ $(document).ready(function(){
 		portfolio: $('#portfolio'),
 		quotes: $('#quotes'),
 		contact: $('#contact'),
-		social: $('#social')
+		social: $('#social'),
+		sliders: {
+			portfolio: $('#portfolioSlider'),
+			quotes: $('#quoteSlider'),
+		},
 	}
 
-	$('#portfolioSlider').slick({
+	el.sliders.portfolio.slick({
 		dots: true,
 		infinite: true,
 		fade: false,
@@ -22,7 +26,7 @@ $(document).ready(function(){
 		arrows: true
 	});
 
-	$('#quoteSlider').slick({
+	el.sliders.quotes.slick({
 		dots: false,
 		infinite: true,
 		autoplay: true,
