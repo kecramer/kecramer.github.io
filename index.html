@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<link href="style/main.css" rel="stylesheet" type="text/css">
+		<link rel="stylesheet" type="text/css" href="ext/slick/slick.css"/>
+		<link rel="stylesheet" type="text/css" href="ext/slick/slick-theme.css"/>
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link href="https://fonts.googleapis.com/css?family=Cormorant|Montserrat" rel="stylesheet">
+		<script src="https://code.jquery.com/jquery-3.3.1.js" defer></script>
+		<script src="ext/slick/slick.js" defer></script>
+		<script src="js/app.js" defer></script>
+		<title>Meet Kevin Cramer</title>
+	</head>
+	<body class="">
+		<div id="wrapper">
+			<header class="">
+				<div class="w100 overlay">
+					<nav class="text-black" id="pageNav"><ul><li id="aboutLink">About</li><li id="portfolioLink">Portfolio</li><li id="quotesLink">Quotes</li><li id="contactLink">Contact</li></ul></nav>
+				</div>
+				<div id="hero-image">
+					<div class="overlay text-center text-white" id="hero-text">
+						<h1 class="w100">Kevin Cramer</h1>
+						<div class="vspace5"></div>
+						<h2 class="w100">Full Stack Web Developer in San Francisco</h2>
+					</div>
+					<img class="full" src="img/IMG_0058-1-2.jpg">
+				</div>
+			</header>
+			<main class="">
+				<section id="about">
+					<div class="vspace"></div>
+					<h2 class="centered">About</h2>
+					<div class="vspace"></div>
+					<div class="w80 flex">
+						<div class="w50"><p>An Ohioan turned San Franciscan; Developer with strengths across backend and front end engineering. Often found flying his plane or on his bike when not writing high availability C backends or shipping front end changes to millions of users. Currently growing his skillset by attending the Web Development Immersive course at General Assembly after several years managing a QA Engineering team.</p>
+						</div>
+						<div class="w50">
+							<div class="w80 portraitContainer">
+								<div class="portrait-blur"></div>
+								<div class="portrait"></div>
+								<img src="img/portrait.jpg" class="hidden full">
+							</div>
+						</div>
+					</div>
+				</section>
+				<div class="separator"></div>
+				<section id="portfolio">
+					<h2 class="centered">Projects</h2>
+					<div class="vspace"></div>
+					<section class="slider w100 text-black" id="portfolioSlider">
+						<div class="slider-item">
+							<div class="w80 flex wrap">
+								<div class="w33"><h2 class="centered">Quake Map</h2></div>
+								<div class="w33"><p>A simple webpage written with Javascript and jQuery. Leveraging the Google Maps API and USGS geojson data to list earthquakes occuring over the past week or month, and plotting them on a simple map.</p><div class="vspace"></div><p>This project, completed as part of General Assembly's Web Development Immersive class, was meant to excercise our ability to work with third party data and AJAX requests.</div>
+								<div class="w33"><img class="w80 border" src="img/quakes.png"></div>
+								<div class="w100 centered"><div class="vspace"></div><p>Find it on <a href="https://github.com/kecramer/wdi-quakemap">GitHub</a></p><div class="vspace"></div></div>
+							</div>
+						</div>
+						<div class="slider-item">
+							<div class="w80 flex">
+								<div class="w33"><div class="vspace"></div><img src="img/imgur.svg" class="centered" id="imgurlogo"><div class="vspace"></div><h3 class="centered">Head of Quality</h3></div>
+								<div class="w67">
+									<p>Spent two and a half years building out Imgur's first QA team. Created processes for and oversaw the regular completion of manually testing new products in Imgur's iOS, Android, and Web properties throughout all stages of development. Helped with development of other processes as a member of the Engineering Leadership team.</p>
+									<div class="vspace"></div>
+									<p>Additionally took on many other minor roles not related to QA, including maintaining our HackerOne program and putting policies in place for how to deal with the program's researchers, coordinating release plans and working with all engineering and product teams to ensure on-time completion, handling and prioritizing incoming bugs reported internally and externally, and making minor code changes to our web property when time allowed.</p>
+								</div>
+							</div>
+						</div>
+					</section>
+				</section>
+				<div class="separator"></div>
+				<section id="quotes">
+					<h2 class="centered">References</h2>
+					<div class="vspace"></div>
+					<section class="w80">
+						<div class="w100" id="quoteSlider">
+							<div class="slider-item">
+								<p class="quote">Out of this world</p>
+								<p class="attrib">Bill Nye</p>
+							</div>
+							<div class="slider-item">
+								<p class="quote">If he wasn't attending WDI, I would want him running Space X</p>
+								<p class="attrib">Elon Musk</p>
+							</div>
+							<div class="slider-item">
+								<p class="quote">Kevin doesn't miss 100% of the shots he doesn't take, because he takes every shot</p>
+								<p class="attrib">Wayne Gretzke - Michael Scott</p>
+							</div>
+							<div class="slider-item">
+								<p class="quote">Woof Woof</p>
+								<p class="attrib">Winnie</p>
+							</div>
+						</div>
+					</section>
+				</section>
+				<div class="separator"></div>
+				<section id="contact">
+					<div class="vspace"></div>
+					<div id="contactform">
+						<h2 class="centered">Connect</h2>
+						<div class="vspace"></div>
+						<div id="bottom-image">
+							<div class="w33 overlay text-center text-white" id="bottom-text">
+								<div class="text-white" id="social"><a href="https://www.linkedin.com/in/kevin-cramer/" target="_blank"><i class="fab fa-linkedin"></i></a><a href="https://twitter.com/crames" target="_blank"><i class="fab fa-twitter-square"></i></a><a href="https://www.instagram.com/crames1512/" target="_blank"><i class="fab fa-instagram"></i></a><a href="mailto:"><i class="fas fa-envelope"></i></a></div>
+							</div>
+							<img class="full" src="img/head-2.jpg">
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer>
+
+			</footer>
+		</div>
+	</body>
+</html>
